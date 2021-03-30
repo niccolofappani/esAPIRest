@@ -1,0 +1,36 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding:20px;
+}
+
+#header{
+    color:white;
+    background-color:#395380;
+    font-size:32px;
+    padding: 10px;
+    border-radius:5px;
+    max-width:60%;
+}
+
+button{
+    float:right;
+}
+
+#top{
+    text-align:center;
+}
+
+th{
+    border-bottom:1px solid black;
+    padding: 25px;
+}
+
+td{
+    padding: 15px;
+    border-bottom:1px solid black;
+}
+
+#formEmployee{
+    display: none;
+}

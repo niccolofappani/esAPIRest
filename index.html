@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src=code.js></script>
+    </head>
+    <body>
+        <div id="header">
+            <label>Manage employees</label>
+            <button type="button" class="btn btn-success" id="add" onclick=showForm()> + Add new employee</button>
+            <button type="button" class="btn btn-danger"> - Delete</button>
+        </div>
+        <br>
+        <div id="container">
+            <table id="table">
+                <tr>
+                    <th><input type=checkbox></th>
+                    <th>Name</th>
+                    <th>E-Mail</th>
+                    <th>Phone</th>
+                    <th colspan=2>Actions</th>
+                </tr>
+            </table>
+            <form id="formEmployee">
+                <h1>Insert new employee</h1>
+                <p>Name</p><input type="text" id="name">
+                <p>Last name</p><input type="text" id="lastName">
+                <p>E-Mail</p><input type="text" id="email">
+                <p>Phone</p><input type="text" id="phone">
+                <br><br>
+                <input type="submit" class="btn btn-secondary" value="Submit" id="submitForm">
+            </form>
+        </div>
+    </body>
+</html>
